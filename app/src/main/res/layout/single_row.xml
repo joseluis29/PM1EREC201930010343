@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/descripcionImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:paddingLeft="10dp"
+        android:text="Descripcion de la imagen"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgFirma"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/descripcionImagen"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mood" />
+
+
+</RelativeLayout>
